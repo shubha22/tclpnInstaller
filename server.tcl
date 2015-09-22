@@ -6,7 +6,6 @@ namespace eval server {
      set version 0.1
  }
 
-puts "hello Shubhadeep lets start "
 
 proc server::ssh_login { i u p } {
  set ipAdd $i
